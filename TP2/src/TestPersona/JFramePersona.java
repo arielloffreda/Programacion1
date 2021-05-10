@@ -437,7 +437,7 @@ public class JFramePersona extends javax.swing.JFrame {
             //PRUEBA CARGA DE DATO
             MiCalendario fechaNac = new MiCalendario(02, 9, 1986);
             MiCalendario fechaIng = new MiCalendario(1, 3, 2020);
-            Alumno alu = new Alumno(32622905, "Silvia ", "malagana", fechaNac, fechaIng, 5, 0.335,'F');
+            Alumno alu = new Alumno(32622905, "Silvia ", "malagana prueba git", fechaNac, fechaIng, 5, 0.335,'F');
               dao.create(alu); // CREA REGISTRO EN EL TXT
               //VALIDO QUE NO SEA NULL Y PRUEBO READ TXT
             if(dao.read(alu.getDni())!=null)
